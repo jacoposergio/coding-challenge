@@ -1,0 +1,119 @@
+
+            /* immagine di background */
+
+  body{           background-image: url(background.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin:0 auto
+      }
+
+            /* logo lim */
+      .logo1{
+        width: 180px;
+        margin-top: 40px;}
+
+        /* rettangolo semitrasparente di sfondo */
+        .rettangolo{
+      border-radius: 20px;
+      background-color: rgba(0,0,0,0.5);
+      width:800px;
+      height:550px;
+      margin-top: 100px;
+      margin-left: 25%;
+      position: fixed;
+      }
+
+      /* centratura logo,sottotitolo e pulsanti */
+      header, nav{
+        text-align: center;
+      }
+
+       /* font usato */
+
+    .sottotitolo, .utente, .via, .stato{
+      font-family: 'Lato', sans-serif;
+       }
+
+
+ /* colori e altre informazioni scritte */
+
+                 .sottotitolo{
+              color: #7CFC00;
+
+              font-size: 23px;
+              font-style: normal;
+              font-weight: bold;
+            }
+              .utente{
+                color: white;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: bold;
+            }
+            .via{
+                color: white;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: normal;
+                margin-top: 5px;
+            }
+            .stato{
+              color: white;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: normal;
+            }
+                /* fine colori delle scritte */
+
+
+    /* cornice verde del nav */
+    .cornicenav{
+      width: 620px;
+      background-color: #00dd00;
+      border: 10px solid #00dd00;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      margin-left: 10%;
+    }
+    /* posizione lista dei monopattini  */
+    .monolista{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 10%;
+    }
+
+
+
+ /* barre di carica */
+
+  .barracarica1, .barracarica2, .barracarica3{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+            /* durata e colore barre */
+
+          .barracarica1{
+            width: 350px;
+            background-color:	#00ffff;
+            border: 10px solid #00ffff;
+          }
+
+          .barracarica2{
+            width: 250px;
+            background-color:	#ffebcd;
+            border: 10px solid #ffebcd;
+          }
+
+          .barracarica3{
+              width: 500px;
+            background-color:	#a9a9a9;
+            border: 10px solid #a9a9a9;
+          }
+
+
+          /* simbolino vicino alla via */
+          .via:before{
+             content:	"		\2903";
+            }
